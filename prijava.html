@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prijava</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header">
+    <div class="header-top-image"></div>
+    <div class="header-text">
+        <div class="logo">
+            <img src="zeljo.jpg" alt="Logo">
+            <h1>FK Željezničar</h1>
+        </div>
+        <div class="sponsor">
+            <h2>Generalni sponzor</h2>
+            <img src="tm.jpg.png" alt="Logo2">
+        </div>
+    </div>
+</header>
+<nav>
+    <ul>
+        <li><a href="prijava.html">Prijava</a></li>
+        <li><a href="odjava.html">Odjava</a></li>
+    </ul>
+</nav>
+<div class="container">
+    <div class="login-box">
+        <div class="header-image"></div>
+        <h2 class="hdr">Prijava</h2>
+        <br> <br>
+        <form>
+            <div class="input-group">
+                <input type="email" id="email" name="email" placeholder="E-Mail" required> <br>
+            </div>
+            <div class="input-group">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <div class="registration-link">
+                <a href="registracija.html">Registracija</a>
+            </div> <br>
+            <button type="submit" class="submit-btn" onclick="window.location.href='uspjesnaprijava.html'">Prijavi se</button>
+            <button type="submit" class="submit-btn" onclick="window.location.href='administrator.html'">Administrator</button>
+        </form>
+    </div>
+</div>
+</body>
+</html>
